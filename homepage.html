@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>
+            Home Page
+        </title>
+        <link rel="stylesheet" href="stylesheet1.css">
+        <link rel="stylesheet" href="stylesheet2.css">
+        <link rel="stylesheet" href="stylesheet3.css">
+        <link rel="stylesheet" href="stylesheet4.css">
+        <style>
+        body{
+          background-image: url(5_2.jpg);
+          h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+          font-family: "Open Sans"
+        }
+
+        </style>
+		<script>
+		function func1(){
+		window.location.href ='view.html';
+		}
+		function func2(){
+		window.location.href ='add.html';
+		}
+		function func3(){
+		window.location.href ='delete.html';
+		}
+		function func4(){
+		window.location.href ='adminlogin1.html';
+		}
+    function func5(){
+    window.location.href = 'performance.html';
+    }
+    function func6(){
+    window.location.href = 'grade.html';
+    }
+		</script>
+
+    </head>
+    <body bgcolor="skyblue">
+        <form action="homepage.php" method="post" align="center"><br/><br/><br/><br/><br/>
+            <input type="button" value="View details" class=".w3-btn" onclick="func1()" ><br/><br/><br/>
+			<input type="button" value="Add New Employee" class=".w3-btn" onclick="func2()" ><br/><br/><br/>
+			<input type="button" value="Delete an Employee" class=".w3-btn" onclick="func3()"><br/><br/><br/>
+      <input type="button" value="Check performance" class=".w3-btn" onclick="func5()"><br/><br/><br/>
+      <input type="button" value="Check Grade of New Employee" class=".w3-btn" onclick="func6()"><br/><br/><br/>
+            <input type="button" name="ok" value="Log out" class=".w3-btn" onclick="func4()"><br/><br/><br/>
+          <!--  <input type="submit" value="Submit">-->
+        </form>
+    </body>
+</html>
