@@ -1,1 +1,3 @@
 Create the database and tables as per the screenshots provided
+
+Name the image name as the table for the respective photos
